@@ -346,7 +346,7 @@
         "type": "fontWeights"
       }
     },
-    "brand": {
+    "colorBrand": {
       "primary": {
         "01": {
           "value": "#691C07",
@@ -370,7 +370,7 @@
         }
       }
     },
-    "neutral": {
+    "colorNeutral": {
       "01": {
         "value": "#000000",
         "type": "color"
