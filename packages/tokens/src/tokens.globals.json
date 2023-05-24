@@ -94,92 +94,100 @@
         "type": "borderRadius"
       }
     },
-    "size": {
-      "none": {
-        "value": "0px",
-        "type": "borderWidth"
-      },
-      "hairline": {
-        "value": "1px",
-        "type": "borderWidth"
-      },
-      "thin": {
-        "value": "2px",
-        "type": "borderWidth"
-      },
-      "thick": {
-        "value": "4px",
-        "type": "borderWidth"
-      },
-      "heavy": {
-        "value": "8px",
-        "type": "borderWidth"
+    "borderWidth": {
+      "size": {
+        "none": {
+          "value": "0px",
+          "type": "borderWidth"
+        },
+        "hairline": {
+          "value": "1px",
+          "type": "borderWidth"
+        },
+        "thin": {
+          "value": "2px",
+          "type": "borderWidth"
+        },
+        "thick": {
+          "value": "4px",
+          "type": "borderWidth"
+        },
+        "heavy": {
+          "value": "8px",
+          "type": "borderWidth"
+        }
       }
     },
-    "level": {
-      "1": {
-        "value": {
-          "x": "0",
-          "y": "4",
-          "blur": "8",
-          "spread": "0",
-          "color": "rgba(0,0,0,0.08)",
-          "type": "dropShadow"
+    "boxShadow": {
+      "level": {
+        "1": {
+          "value": {
+            "x": "0",
+            "y": "4",
+            "blur": "8",
+            "spread": "0",
+            "color": "rgba(0,0,0,0.08)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
         },
-        "type": "boxShadow"
-      },
-      "2": {
-        "value": {
-          "x": "0",
-          "y": "8",
-          "blur": "24",
-          "spread": "0",
-          "color": "rgba(0,0,0,0.08)",
-          "type": "dropShadow"
+        "2": {
+          "value": {
+            "x": "0",
+            "y": "8",
+            "blur": "24",
+            "spread": "0",
+            "color": "rgba(0,0,0,0.08)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
         },
-        "type": "boxShadow"
-      },
-      "3": {
-        "value": {
-          "x": "0",
-          "y": "16",
-          "blur": "32",
-          "spread": "0",
-          "color": "rgba(0,0,0,0.08)",
-          "type": "dropShadow"
+        "3": {
+          "value": {
+            "x": "0",
+            "y": "16",
+            "blur": "32",
+            "spread": "0",
+            "color": "rgba(0,0,0,0.08)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
         },
-        "type": "boxShadow"
-      },
-      "4": {
-        "value": {
-          "x": "0",
-          "y": "16",
-          "blur": "48",
-          "spread": "0",
-          "color": "rgba(0,0,0,0.08)",
-          "type": "dropShadow"
+        "4": {
+          "value": {
+            "x": "0",
+            "y": "16",
+            "blur": "48",
+            "spread": "0",
+            "color": "rgba(0,0,0,0.08)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        }
+      }
+    },
+    "opacity": {
+      "level": {
+        "semiopaque": {
+          "value": "0.8",
+          "type": "opacity"
         },
-        "type": "boxShadow"
-      },
-      "semiopaque": {
-        "value": "0.8",
-        "type": "opacity"
-      },
-      "intense": {
-        "value": "0.64",
-        "type": "opacity"
-      },
-      "medium": {
-        "value": "0.32",
-        "type": "opacity"
-      },
-      "light": {
-        "value": "0.16",
-        "type": "opacity"
-      },
-      "semitransparent": {
-        "value": "0.08",
-        "type": "opacity"
+        "intense": {
+          "value": "0.64",
+          "type": "opacity"
+        },
+        "medium": {
+          "value": "0.32",
+          "type": "opacity"
+        },
+        "light": {
+          "value": "0.16",
+          "type": "opacity"
+        },
+        "semitransparent": {
+          "value": "0.08",
+          "type": "opacity"
+        }
       }
     },
     "spacing-stack": {
@@ -318,13 +326,13 @@
         "type": "spacing"
       }
     },
-    "family": {
+    "fontFamily": {
       "highlight": {
         "value": "Archivo",
         "type": "fontFamilies"
       }
     },
-    "weight": {
+    "fontWeight": {
       "bold": {
         "value": "700",
         "type": "fontWeights"
