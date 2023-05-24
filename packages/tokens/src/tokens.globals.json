@@ -1,5 +1,5 @@
 {
-  "globals": {
+  "": {
     "line": {
       "height": {
         "tight": {
@@ -388,7 +388,7 @@
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "globals"
+      ""
     ]
   }
 }
