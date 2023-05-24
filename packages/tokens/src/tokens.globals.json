@@ -68,7 +68,7 @@
         }
       }
     },
-    "radius": {
+    "borderRadius": {
       "none": {
         "value": "0px",
         "type": "borderRadius"
