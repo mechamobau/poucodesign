@@ -2,7 +2,12 @@
   "name": "tokens",
   "version": "0.0.0",
   "private": true,
+  "main": "src/index.ts",
   "scripts": {
-    "build": "turbo build"
+    "build": "node ./src/scripts/build.js"
+  },
+  "dependencies": {
+    "@stitches/react": "^1.2.8",
+    "style-dictionary": "^3.8.0"
   }
 }
