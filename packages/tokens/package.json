@@ -9,5 +9,8 @@
   "dependencies": {
     "@stitches/react": "^1.2.8",
     "style-dictionary": "^3.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.7"
   }
 }

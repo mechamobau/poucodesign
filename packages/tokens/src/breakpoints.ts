@@ -1,4 +1,4 @@
-const breakPoints = {
+const breakpoints = {
     sm: '(min-width: 640px)',
     md: '(min-width: 768px)',
     lg: '(min-width: 1024px)',
@@ -8,5 +8,5 @@ const breakPoints = {
     '4xl': '(min-width: 1920px)',
   };
   
-  export default breakPoints;
+  export default breakpoints;
   
