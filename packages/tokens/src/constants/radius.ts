@@ -1,10 +1,10 @@
 
   export const radii = {
-    radiusNone: '0px',
-  radiusSm: '8px',
-  radiusMd: '16px',
-  radiusLg: '24px',
-  radiusPill: '500px',
-  radiusCircular: '50%',
+    borderRadiusNone: '0px',
+  borderRadiusSm: '8px',
+  borderRadiusMd: '16px',
+  borderRadiusLg: '24px',
+  borderRadiusPill: '500px',
+  borderRadiusCircular: '50%',
   };
   
