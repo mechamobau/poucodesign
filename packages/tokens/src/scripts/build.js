@@ -70,7 +70,10 @@ ${dictionary.allTokens
     name: 'javascript/spaces',
     formatter(dictionary) {
       const pxToRem = (pxValue) => {
-        const rawValue = pxValue.replace('px', '');
+        const rawValue = pxValue.replace(/px/g, '');
+
+        if (rawValue.includes(" ")) return rawValue.split(" ").map(pxToRem).join(" ");
+
         const remValue = rawValue / remDivisor;
         return `${remValue}rem`;
       };
