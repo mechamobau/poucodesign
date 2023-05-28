@@ -192,7 +192,7 @@
     },
     "spacing-stack": {
       "quarck": {
-        "value": "5",
+        "value": "4",
         "type": "spacing"
       },
       "nano": {
