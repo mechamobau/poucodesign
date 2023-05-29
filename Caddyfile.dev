@@ -1,0 +1,21 @@
+{
+	debug
+}
+
+poucodesign.local {
+	encode gzip
+
+	redir /storybook /storybook/
+
+	handle_path /* {
+		try_files {path} /index.html
+		root * apps/docs/build/
+		file_server
+	}
+
+	handle_path /storybook/* {
+		try_files {path} /index.html
+		root * apps/storybook/storybook-static/
+		file_server
+	}
+}
