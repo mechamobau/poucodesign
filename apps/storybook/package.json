@@ -1,0 +1,25 @@
+{
+  "name": "storybook",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "storybook build",
+    "storybook": "storybook dev -p 6006",
+    "start": "npm run storybook",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "ui": "workspace:*",
+    "@storybook/addon-essentials": "^7.0.17",
+    "@storybook/addon-interactions": "^7.0.17",
+    "@storybook/addon-links": "^7.0.17",
+    "@storybook/blocks": "^7.0.17",
+    "@storybook/react": "^7.0.17",
+    "@storybook/react-vite": "^7.0.17",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.0.17"
+  }
+}
