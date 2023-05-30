@@ -1,5 +1,3 @@
-
-  export const fonts = {
-    fontFamilyHighlight: 'Archivo',
-  };
-  
+export const fonts = {
+  fontFamilyHighlight: 'Archivo',
+};

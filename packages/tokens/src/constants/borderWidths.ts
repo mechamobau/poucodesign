@@ -1,4 +1,3 @@
-
 export const borderWidths = {
   borderWidthSizeNone: '0px',
   borderWidthSizeHairline: '1px',

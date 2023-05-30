@@ -1,4 +1,3 @@
-
 export const fontWeights = {
   fontWeightBold: '700',
   fontWeightMedium: '600',

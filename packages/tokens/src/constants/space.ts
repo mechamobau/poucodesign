@@ -1,6 +1,5 @@
-
-  export const space = {
-    spacingStackQuarck: '0.25rem',
+export const space = {
+  spacingStackQuarck: '0.25rem',
   spacingStackNano: '0.5rem',
   spacingStackXxxs: '1rem',
   spacingStackXxs: '1.5rem',
@@ -32,5 +31,4 @@
   spacingInlineMd: '3rem',
   spacingInlineLg: '4rem',
   spacingInlineXl: '5rem',
-  };
-  
+};
