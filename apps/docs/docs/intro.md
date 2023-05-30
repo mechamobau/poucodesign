@@ -2,46 +2,25 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introdução
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Bem-vindo à documentação da design system `pouco.design`! Aqui, vamos explorar o que é uma design system e como nossa abordagem se destaca, oferecendo facilidade de uso, flexibilidade e simplicidade em cada etapa.
 
-## Getting Started
+## O que é uma Design System?
 
-Get started by **creating a new site**.
+Uma Design System é uma coleção de componentes, diretrizes, padrões e princípios que permitem criar e manter uma identidade visual consistente em todos os produtos e serviços de uma organização. Ela serve como um guia para a equipe de design e desenvolvimento, garantindo uma experiência do usuário coesa, independente da plataforma ou dispositivo.
+A Proposta do `pouco.design`
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+No `pouco.design`, nossa proposta é simplificar o processo de criação e implementação de design systems. Acreditamos que uma design system deve ser fácil de usar, flexível e simples de entender. Nossa abordagem se baseia nos seguintes princípios:
 
-### What you'll need
+### Fácil de usar
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Queremos que você aproveite ao máximo o `pouco.design`, independentemente do seu nível de experiência em design systems. Nossas ferramentas e recursos foram projetados com foco na usabilidade intuitiva, permitindo que você se concentre na criação, em vez de se perder em complexidades técnicas.
 
-## Generate a new site
+### Flexibilidade de acordo com suas necessidades
 
-Generate a new Docusaurus site using the **classic template**.
+Reconhecemos que cada projeto e equipe tem suas próprias particularidades. Por isso, o `pouco.design` foi desenvolvido para ser flexível e adaptável. Nossos componentes e diretrizes podem ser personalizados para atender às necessidades específicas de cada projeto, garantindo que sua identidade visual seja única e adequada.
 
-The classic template will automatically be added to your project after you run the command:
+### Simplicidade de entendimento
 
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Uma design system só é eficaz se for facilmente compreendida por todos os envolvidos no processo de design e desenvolvimento. Por isso, colocamos um alto valor na simplicidade de entendimento. Nossa documentação é clara, concisa e organizada, permitindo que você localize rapidamente as informações necessárias para criar designs coesos e consistentes.
