@@ -1,5 +1,5 @@
 {
-  "": {
+  "globals": {
     "line": {
       "height": {
         "tight": {
@@ -325,52 +325,32 @@
         "value": "80px",
         "type": "spacing"
       }
-    },
-    "fontFamily": {
-      "highlight": {
-        "value": "Archivo",
-        "type": "fontFamilies"
-      }
-    },
-    "fontWeight": {
-      "bold": {
-        "value": "700",
-        "type": "fontWeights"
+    }
+  },
+  "brand": {
+    "brand": {
+      "01": {
+        "value": "#691C07",
+        "type": "color"
       },
-      "medium": {
-        "value": "600",
-        "type": "fontWeights"
+      "02": {
+        "value": "#8F260A",
+        "type": "color"
       },
-      "regular": {
-        "value": "400",
-        "type": "fontWeights"
+      "03": {
+        "value": "#F04E23",
+        "type": "color"
+      },
+      "04": {
+        "value": "#FBD1C6",
+        "type": "color"
+      },
+      "": {
+        "value": "#FEF0EC",
+        "type": "color"
       }
     },
-    "colorBrand": {
-      "primary": {
-        "01": {
-          "value": "#691C07",
-          "type": "color"
-        },
-        "02": {
-          "value": "#8F260A",
-          "type": "color"
-        },
-        "03": {
-          "value": "#F04E23",
-          "type": "color"
-        },
-        "04": {
-          "value": "#FBD1C6",
-          "type": "color"
-        },
-        "05": {
-          "value": "#FEF0EC",
-          "type": "color"
-        }
-      }
-    },
-    "colorNeutral": {
+    "neutral": {
       "01": {
         "value": "#000000",
         "type": "color"
@@ -391,12 +371,29 @@
         "value": "#ffffff",
         "type": "color"
       }
+    },
+    "highlight": {
+      "value": "Archivo",
+      "type": "fontFamilies"
+    },
+    "bold": {
+      "value": "700",
+      "type": "fontWeights"
+    },
+    "medium": {
+      "value": "600",
+      "type": "fontWeights"
+    },
+    "regular": {
+      "value": "400",
+      "type": "fontWeights"
     }
   },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      ""
+      "globals",
+      "brand"
     ]
   }
 }
