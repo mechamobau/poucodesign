@@ -1,5 +1,5 @@
 {
-  "": {
+  "globals$": {
     "line": {
       "height": {
         "tight": {
@@ -327,73 +327,79 @@
       }
     }
   },
-  "brand": {
-    "brand": {
-      "01": {
-        "value": "#691C07",
-        "type": "color"
+  "brand$": {
+    "color": {
+      "brand": {
+        "01": {
+          "value": "#691C07",
+          "type": "color"
+        },
+        "02": {
+          "value": "#8F260A",
+          "type": "color"
+        },
+        "03": {
+          "value": "#F04E23",
+          "type": "color"
+        },
+        "04": {
+          "value": "#FBD1C6",
+          "type": "color"
+        },
+        "05": {
+          "value": "#FEF0EC",
+          "type": "color"
+        }
       },
-      "02": {
-        "value": "#8F260A",
-        "type": "color"
-      },
-      "03": {
-        "value": "#F04E23",
-        "type": "color"
-      },
-      "04": {
-        "value": "#FBD1C6",
-        "type": "color"
-      },
-      "05": {
-        "value": "#FEF0EC",
-        "type": "color"
+      "neutral": {
+        "01": {
+          "value": "#000000",
+          "type": "color"
+        },
+        "02": {
+          "value": "#70747B",
+          "type": "color"
+        },
+        "03": {
+          "value": "#A6AAAF",
+          "type": "color"
+        },
+        "04": {
+          "value": "#E4E5E7",
+          "type": "color"
+        },
+        "05": {
+          "value": "#ffffff",
+          "type": "color"
+        }
       }
     },
-    "neutral": {
-      "01": {
-        "value": "#000000",
-        "type": "color"
-      },
-      "02": {
-        "value": "#70747B",
-        "type": "color"
-      },
-      "03": {
-        "value": "#A6AAAF",
-        "type": "color"
-      },
-      "04": {
-        "value": "#E4E5E7",
-        "type": "color"
-      },
-      "05": {
-        "value": "#ffffff",
-        "type": "color"
+    "fontFamily": {
+      "highlight": {
+        "value": "Archivo",
+        "type": "fontFamilies"
       }
     },
-    "highlight": {
-      "value": "Archivo",
-      "type": "fontFamilies"
-    },
-    "bold": {
-      "value": "700",
-      "type": "fontWeights"
-    },
-    "medium": {
-      "value": "600",
-      "type": "fontWeights"
-    },
-    "regular": {
-      "value": "400",
-      "type": "fontWeights"
+    "fontWeight": {
+      "bold": {
+        "value": "700",
+        "type": "fontWeights"
+      },
+      "medium": {
+        "value": "600",
+        "type": "fontWeights"
+      },
+      "regular": {
+        "value": "400",
+        "type": "fontWeights"
+      }
     }
   },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "",
-      "brand"
+      "globals$",
+      "brand$"
     ]
   }
 }
