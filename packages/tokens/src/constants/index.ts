@@ -4,6 +4,7 @@ export { fonts } from './fonts';
 export { fontSizes } from './fontSizes';
 export { fontWeights } from './fontWeights';
 export { lineHeights } from './lineHeights';
+export { opacity } from './opacity';
 export { radii } from './radius';
 export { shadows } from './shadows';
 export { space } from './space';

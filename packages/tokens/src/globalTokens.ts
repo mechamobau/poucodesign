@@ -9,6 +9,7 @@ import {
   fontSizes,
   fontWeights,
   lineHeights,
+  opacity
 } from './constants';
 
 const globalTokens = {
@@ -21,6 +22,7 @@ const globalTokens = {
   radii,
   shadows,
   space,
+  opacity
 };
 
 export default globalTokens;

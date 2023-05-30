@@ -6,6 +6,6 @@ export const { styled, css, createTheme, keyframes } = createStitches({
   theme: globalTokens,
   themeMap: {
     ...defaultThemeMap,
-    font: 'typographies',
+    opacity: 'opacity',
   },
 });
