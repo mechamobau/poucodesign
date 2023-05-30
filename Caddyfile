@@ -1,5 +1,17 @@
 pouco.design {
-	handle /api/* {
-		reverse_proxy backend:8000
+	encode gzip
+
+	redir /storybook /storybook/
+
+	handle_path /* {
+		try_files {path} /index.html
+		root * /etc/caddy/apps/docs/build/
+		file_server
+	}
+
+	handle_path /storybook/* {
+		try_files {path} /index.html
+		root * /etc/caddy/apps/storybook/storybook-static/
+		file_server
 	}
 }

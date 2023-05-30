@@ -19,5 +19,4 @@ FROM caddy:alpine AS production
 EXPOSE 443
 
 COPY --from=build /app /etc/caddy/
-# TODO: Mudar para Caddyfile
-COPY Caddyfile.dev /etc/caddy/Caddyfile
+COPY Caddyfile /etc/caddy/Caddyfile

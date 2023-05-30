@@ -12,8 +12,7 @@ RUN pnpm fetch --prod
 
 ADD . ./
 
-RUN pnpm install -r && \
-    pnpm --filter="storybook" --filter="docs" run start
+RUN pnpm install -r --offline --prod && pnpm run build
 
 FROM caddy:alpine AS production
 
@@ -21,5 +20,3 @@ EXPOSE 443
 
 COPY --from=build /app /etc/caddy/
 COPY Caddyfile.dev /etc/caddy/Caddyfile
-
-CMD ["caddy", "run"]
