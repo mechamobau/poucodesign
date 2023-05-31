@@ -73,4 +73,4 @@ pnpm --filter tokens run build
 
 Essas configurações são necessárias para o ambiente de desenvolvimento do `pouco.design` e garantem que você tenha acesso a todas as funcionalidades e recursos disponíveis.
 
-Obrigado por escolher o `pouco.design` para sua jornada de desenvolvimento. Estamos
+Obrigado por escolher o pouco.design para sua jornada de desenvolvimento. Estamos ansiosos para ver o que você vai construir!
