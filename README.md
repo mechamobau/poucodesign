@@ -1,81 +1,76 @@
-# Turborepo starter
+# pouco.design
 
-This is an official starter Turborepo.
+Bem-vindo(a) ao `pouco.design`! Este é um Design System construído principalmente para o ecossistema React. Utilizamos várias ferramentas e tecnologias para proporcionar uma experiência de desenvolvimento eficiente e produtiva.
 
-## Using this example
+## 🚀 Começando
 
-Run the following command:
+Esta seção contém informações sobre o processo de desenvolvimento no contexto do `pouco.design`. 
 
-```sh
-npx create-turbo@latest
+## 🎨 Compilação de Tokens
+
+No `pouco.design`, utilizamos o plugin [Figma Studio](https://tokens.studio/) para compilar os tokens vindos do Figma. Estes tokens representam os elementos visuais do Design System, como cores, tipografia e espaçamento. Em seguida, traduzimos esses tokens para componentes por meio do [Style Dictionary](https://amzn.github.io/style-dictionary/).
+
+## 🔍 Facilitando a busca de Tokens
+
+Para facilitar a utilização dos tokens durante o desenvolvimento, adotamos o [Stitches](https://stitches.dev/). O Stitches é uma biblioteca que oferece autocompletar de tipos TypeScript, permitindo que os desenvolvedores tenham acesso rápido aos tokens relacionados a cada propriedade CSS. Isso ajuda a garantir consistência e a evitar erros ao escrever os estilos dos componentes.
+
+## 🧩 Exemplo de Componente
+
+Aqui está um exemplo simples de como escrevemos nosso componente `Button` utilizando o Stitches:
+
+```typescript title="Button.tsx"
+import { styled } from "../stitches.config";
+
+const Button = styled('button', {
+    border: '0 none transparent',
+    fontSize: '$fontSizeSm',
+    lineHeight: '$lineHeightTight',
+    borderRadius: '$borderRadiusNone',
+    padding: '$spacingSquishXs',
+    fontFamily: '$fontFamilyHighlight',
+    fontWeight: '$fontWeightMedium',
+    color: '$colorNeutral05',
+    backgroundColor: '$colorBrandPrimary03',
+    '&:active': {
+        backgroundColor: '$colorBrandPrimary02'
+    }
+});
 ```
 
-## What's inside?
+Neste exemplo, utilizamos os tokens definidos no nosso sistema de design para estilizar o componente `Button`, garantindo a consistência visual.
 
-This Turborepo includes the following packages/apps:
+## 🛠️ Configuração
 
-### Apps and Packages
+### Docker
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `ui`: a stub React component library shared by both `web` and `docs` applications
-- `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `tsconfig`: `tsconfig.json`s used throughout the monorepo
+Se preferir, você pode utilizar nossa imagem Docker para ter acesso a esta documentação e ao Storybook. Para isso, siga os passos a seguir:
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
-
-### Utilities
-
-This Turborepo has some additional tools already setup for you:
-
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
-
-### Build
-
-To build all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm build
+1. Execute o seguinte comando para criar a imagem Docker:
+```bash
+docker build -f Dockerfile.dev . -t pouco-design
 ```
 
-### Develop
-
-To develop all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm dev
+2. Em seguida, execute o seguinte comando para executar o container:
+```bash
+docker run -p 443:443 pouco-design
 ```
 
-### Remote Caching
+### Configuração Manual
 
-Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
+Se preferir realizar a configuração manualmente, siga os passos abaixo:
 
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
+1. Certifique-se de ter o [PNPM](https://pnpm.io/) e o [Turbo](https://turbo.build/) instalados em seu ambiente.
 
-```
-cd my-turborepo
-npx turbo login
-```
-
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
-
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
-
-```
-npx turbo link
+2. Execute o seguinte comando para instalar as dependências:
+```bash
+pnpm i
 ```
 
-## Useful Links
+3. Por fim, execute o seguinte comando para realizar o build dos tokens:
+```bash
+pnpm --filter tokens run build
+```
 
-Learn more about the power of Turborepo:
+Essas configurações são necessárias para o ambiente de desenvolvimento do `pouco.design` e garantem que você tenha acesso a todas as funcionalidades e recursos disponíveis.
 
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+Obrigado por escolher o `pouco.design` para sua jornada de desenvolvimento. Estamos
