@@ -2,6 +2,7 @@ pouco.design {
 	encode gzip
 
 	redir /storybook /storybook/
+	redir /sample /sample/
 
 	handle_path /* {
 		try_files {path} /index.html
@@ -12,6 +13,12 @@ pouco.design {
 	handle_path /storybook/* {
 		try_files {path} /index.html
 		root * /etc/caddy/apps/storybook/storybook-static/
+		file_server
+	}
+
+	handle_path /sample/* {
+		try_files {path} /index.html
+		root * /etc/caddy/apps/sample/build/
 		file_server
 	}
 }
