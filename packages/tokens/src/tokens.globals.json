@@ -330,25 +330,27 @@
   "brand$": {
     "color": {
       "brand": {
-        "01": {
-          "value": "#691C07",
-          "type": "color"
-        },
-        "02": {
-          "value": "#8F260A",
-          "type": "color"
-        },
-        "03": {
-          "value": "#F04E23",
-          "type": "color"
-        },
-        "04": {
-          "value": "#FBD1C6",
-          "type": "color"
-        },
-        "05": {
-          "value": "#FEF0EC",
-          "type": "color"
+        "primary": {
+          "01": {
+            "value": "#691C07",
+            "type": "color"
+          },
+          "02": {
+            "value": "#8F260A",
+            "type": "color"
+          },
+          "03": {
+            "value": "#F04E23",
+            "type": "color"
+          },
+          "04": {
+            "value": "#FBD1C6",
+            "type": "color"
+          },
+          "05": {
+            "value": "#FEF0EC",
+            "type": "color"
+          }
         }
       },
       "neutral": {
