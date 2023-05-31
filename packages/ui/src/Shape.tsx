@@ -5,6 +5,7 @@ const Shape = styled('div', {
     padding: '$spacingInsetLg',
     borderWidth: '$borderWidthSizeThin',
     borderColor: '$colorNeutral04',
+    borderStyle: 'solid',
     backgroundColor: '$colorNeutral05'
 });
 
