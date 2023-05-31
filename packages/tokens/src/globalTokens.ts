@@ -1,4 +1,3 @@
-import type * as Stitches from '@stitches/react';
 import {
   shadows,
   radii,
